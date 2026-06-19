@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acris Esports 戦績</title>
+
+<style>
+body{
+    font-family: sans-serif;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.record{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th{
+    background: #222;
+    color: white;
+}
+
+/* 勝敗欄 */
+.result{
+    background: white;
+    width: 80px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* 勝利 ○ */
+.win{
+    color: white;
+    background: white;
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+/* 敗北 ● */
+.lose{
+    color: black;
+    background: white;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Acris Esports 戦績</h1>
+
+<div class="record">
+    <h2>通算成績</h2>
+    <p>12試合 10勝2敗 勝率83.3%</p>
+    <p>総得点82 / 総失点25 / 得失点差 +57</p>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>勝敗</th>
+            <th>対戦相手</th>
+            <th>スコア</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="result win">○</td>
+            <td>EXP</td>
+            <td>8-0</td>
+        </tr>
+        <tr>
+            <td class="result win">○</td>
+            <td>EXP</td>
+            <td>6-4</td>
+        </tr>
+        <tr>
+            <td class="result win">○</td>
+            <td>Greeting sukiyaki</td>
+            <td>4-2</td>
+        </tr>
+        <tr>
+            <td class="result lose">●</td>
+            <td>Aura Farming Squad</td>
+            <td>4-5</td>
+        </tr>
+        <tr>
+            <td class="result win">○</td>
+            <td>SKS</td>
+            <td>5-0</td>
+        </tr>
+        <tr>
+            <td class="result win">○</td>
+            <td>Top of Liberty</td>
+            <td>7-1</td>
+        </tr>
+        <tr>
+            <td class="result win">○</td>
+            <td>Revolter</td>
+            <td>5-0</td>
+        </tr>
+        <tr>
+            <td class="result win">○</td>
+            <td>やど鯖</td>
+            <td>7-1</td>
+        </tr>
+        <tr>
+            <td class="result win">○</td>
+            <td>New Bond</td>
+            <td>10-4</td>
+        </tr>
+        <tr>
+            <td class="result lose">●</td>
+            <td>Top of Liberty</td>
+            <td>6-7</td>
+        </tr>
+        <tr>
+            <td class="result win">○</td>
+            <td>PicoPOLPO</td>
+            <td>8-1</td>
+        </tr>
+        <tr>
+            <td class="result win">○</td>
+            <td>ナムサン商会</td>
+            <td>12-0</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
